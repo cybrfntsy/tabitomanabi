@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: aliceblue;
+        }
+        header {
+            font-family: Arial;
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+        }
+
+        #header {
+            height: 80px;
+            width: 350px;
+            float: right;
+            font-size: 16px;
+            color: navy;
+            margin-top: 20px;
+        }
+
+        nav {
+            display: inline-flex;
+            font-family: Arial;
+            font-size: 21px;
+            width: 100%;
+            height: 50px;
+            margin-top: 10px;
+            background-color: navy;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+
+        #menu {
+            font-family: Arial;
+            font-size: 18px;
+            display: inline;
+            margin-left: 120px;
+            width: 150px;
+            height: 20px;
+        }
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover {
+            color: #7a9dc2;
+            text-decoration: none;
+        }
+        a:active {
+            color: #7a9dc2;
+        }
+        aside {
+            float: left;
+            width: 780px;
+            height: 250px;
+            margin-top: 330px;
+            padding-left: 10px;
+            align-content: center;
+        }
+        #content1 {
+            width: 1400px;
+            height: 550px;
+            margin-top: 30px;
+            display: flex;
+            margin-left: 40px;
+        }
+        #content2 {
+            width: 350px;
+            height: 530px;
+            margin: 10px 20px;
+            margin-left: 70px;
+        }
+        #content_img {
+            width: 100%;
+            height: 300px;
+            margin: 10px 20px;
+        }
+        #content_text {
+            width: 300px;
+            height: 180px;
+            margin: 10px 20px;
+        }
+        #title {
+            float: left;
+            width: 300px;
+            height: 30px;
+            font-size: 28px;
+            color: navy;
+            font-weight: bold;
+            margin-top: 120px;
+            margin-left: 580px;
+            text-decoration: underline;
+        }
+        h3 {
+            margin-top: 40px;
+            margin-bottom: 0;
+            font-size: 28px;
+            color: gray;
+            padding-left: 18px;
+        }
+        h4 {
+            margin-top: 40px;
+            margin-bottom: 0;
+            font-size: 21px;
+            color: gray;
+            padding-left: 18px;
+        }
+        #text1 {
+            color: black;
+            font-size: 16px;
+            padding-left: 18px;
+            padding-right: 20px;
+            line-height: 30px;
+        }
+        #text2 {
+            color: black;
+            font-size: 14px;
+            padding-left: 18px;
+            padding-right: 20px;
+            line-height: 30px;
+        }
+        section {
+            float: left;
+            width: 500px;
+            height: 550px;
+            margin-left: 100px;
+            margin-top: 80px;
+            font-size: 23px;
+            font-weight: bold;
+            color: navy;
+        }
+        footer {
+            width: 100%;
+            height: 180px;
+            margin-top: 120px;
+            background-color: #cbe4ff;
+            padding-left: 30px;
+        }
+
+        #footer {
+            width: 500px;
+            height: 150px;
+            margin: 10px 0;
+            float: left;
+            color: navy;
+        }
+
+        #address {
+            width: 470px;
+            height: 150px;
+            margin-top: 10px 0;
+            padding-top: 10px;
+            float: right;
+            color: navy;
+            font-size: 14px;
+        }
+    @media (max-width:760px) {
+            header {
+                width: 720px;
+            }
+            nav {
+                height: 100px;
+            }
+            main {
+                margin-left: 170px;
+            }
+            nav li {
+                font-size: 14px;
+            }
+            td img {
+                max-width: 150px;
+            }    
+        }
+        @media (max-width:1450px) {
+            aside {
+                width: 400px;
+                margin-top: 200px;
+            }
+        }
+        @media (max-width:400px) {
+            header {
+                width: 630px;
+            }
+            nav {
+                height: 70px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            td img {
+                max-width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logoheader.png" height="100px"></a>
+        <div id="header">
+            7月から8月までの大阪短期留学日記<br>
+            ２ヶ月間の新しい経験の話を読んでください！<br>
+            始めましょう！
+        </div>
+    </header>
+
+    <nav>
+        <p id="menu"><a href="home.html">HOME ホーム</a></p>
+        <p id="menu"><a href="daily.html">DAILY 日常</a></p>
+        <p id="menu"><a href="food.html">FOOD 食べ物</a></p>
+        <p id="menu"><a href="travel.html">TRAVEL 旅行</a></p>
+        <p id="menu"><a href="event.html">EVENT イベント</a></p>
+    </nav>
+
+    <section>
+        <img src="img/home.png">
+    </section>
+
+    <aside>
+        <h3>インペリアル大国2</h3>
+        <p id="text1">
+            2달간 나를 품어줬던 소중한 집. 7.3평으로 일본 집 중에서 넓은 편이었다. 우리집은 1K (1 room, 1 kitchen) 형식이었는데, 방이 엄청 넓은 편이라서 생활하기에 좋았다.
+            월세는 월 64,000엔 (한화 약 60만원)에 보증금은 없었다. 외국인 유학생이 많이 입주해 있는 맨션이어서 집 소개도 한국분께서 해주셨고 와이파이나 주방 인덕션 등의 문제도
+            쉽게 해결할 수 있어서 너무 편했다. 가끔 바퀴벌레나 쥐가 나오긴 했지만, 그것도 나름대로의 낭만으로 생각하면서 잘 살 수 있었던 집이었다. ２ヶ月間ありがとうございました！
+        </p>
+    </aside>
+    <div class="clear"></div>
+
+    <div>
+        <p id="title">私の家、そこの思い出</p>
+    </div>
+
+    <div id="content1">
+        <div id="content2">
+            <div id="content_img"><img src="img/outside.png"></div>
+            <div id="content_text">
+                <h4>外：oustide</h4>
+                <p id="text2">
+                    우리 집 앞에는 큰 자판기가 있었다. 여름에 집 들어오기 전에 자판기 근처에 자주 돌아다니던 고양이랑 같이 앉아서 カルピス를 마시는게
+                    일상의 소소한 행복이자 작은 나만의 루틴이었다.
+                </p>
+            </div>
+        </div>
+
+        <div id="content2">
+            <div id="content_img"><img src="img/room.png"></div>
+            <div id="content_text">
+                <h4>部屋：room</h4>
+                <p id="text2">
+                    떠나기 전에 내 방. 곰팡이 냄새가 좀 많이 나서 2달 동안 에어컨을 꺼본 적이 없었지만, 너무 포근했던 나만의 보금자리였다. 
+                    방에 테이블, 티비, 매트리스(?) 등이 다 들어가는 큰 방이었다.
+                </p>
+            </div>
+        </div>
+
+        <div id="content2">
+            <div id="content_img"><img src="img/neighborhood.png"></div>
+            <div id="content_text">
+                <h4>周辺：neighborhood</h4>
+                <p id="text2">
+                    내 방에서 보이던 바깥 풍경. 신이마미아역이 바로 앞에 있어서 새벽이나 늦은 밤에 자주 깨곤 했지만, 이것도 익숙해져서 후에는
+                    그 어떤 열차가 지나가도 잘 수 있었다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <footer>
+        <div id="footer">
+            <img src="img/logofooter.png">
+            <p>
+                Copyright © 旅と学び tabitomanabi All Rights Reserved<br>
+                @tabitomanabi<br>
+                tabitomanabi.co.jp
+            </p>
+        </div>
+        <div id="address">
+            <p>
+                PHONE +81 80-9444-9412<br>
+                INSTA @cybrfntsy<br>
+                EMAIL cybrfntsy@naver.com
+            </p>
+            <p>
+                〒556-0014<br>
+                大阪市浪速区大国1-12-8,インペリアル大国2<br>
+                Osaka-shi, Naniwa-ku, i, Daikoku 1-12-8, Imperial Daikoku 2 
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

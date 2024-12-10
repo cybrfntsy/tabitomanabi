@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: aliceblue;
+        }
+        header {
+            font-family: Arial;
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+        }
+
+        #header {
+            height: 80px;
+            width: 350px;
+            float: right;
+            font-size: 16px;
+            color: navy;
+            margin-top: 20px;
+        }
+
+        nav {
+            display: inline-flex;
+            font-family: Arial;
+            font-size: 21px;
+            width: 100%;
+            height: 50px;
+            margin-top: 10px;
+            background-color: navy;
+            align-items: center;
+            margin-bottom: 120px;
+        }
+
+        #menu {
+            font-family: Arial;
+            font-size: 18px;
+            display: inline;
+            margin-left: 120px;
+            width: 150px;
+            height: 20px;
+        }
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover {
+            color: #7a9dc2;
+            text-decoration: none;
+        }
+        a:active {
+            color: #7a9dc2;
+        }
+        #section1 {
+            width: 800px;
+            height: 300px;
+            margin-top: 50px;
+            margin-left: 50px;
+            float: left;
+        }
+        #section2 {
+            width: 800px;
+            height: 300px;
+            margin-top: 50px;
+            margin-left: 20px;
+            float: left;
+        }
+        #aside1 {
+            width: 500px;
+            height: 300px;
+            margin-top: 50px;
+            margin-left: 20px;
+            float: left;
+        }
+        #aside2 {
+            width: 500px;
+            height: 300px;
+            margin-top: 50px;
+            margin-left: 50px;
+            float: left;
+        }
+        h2 {
+            color: navy;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+        #content {
+            color: #333333;
+            font-size: 16px;
+        }
+        footer {
+            width: 100%;
+            height: 180px;
+            margin-top: 200px;
+            background-color: #cbe4ff;
+            padding-left: 30px;
+        }
+
+        #footer {
+            width: 500px;
+            height: 150px;
+            margin: 10px 0;
+            float: left;
+            color: navy;
+        }
+
+        #address {
+            width: 470px;
+            height: 150px;
+            margin-top: 10px 0;
+            padding-top: 10px;
+            float: right;
+            color: navy;
+            font-size: 14px;
+        }
+
+        @media (max-width:760px) {
+            header {
+                width: 720px;
+            }
+            nav {
+                height: 100px;
+            }
+        }
+        @media (max-width:400px) {
+            header {
+                width: 630px;
+            }
+            nav {
+                height: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logoheader.png" height="100px"></a>
+        <div id="header">
+            7月から8月までの大阪短期留学日記<br>
+            ２ヶ月間の新しい経験の話を読んでください！<br>
+            始めましょう！
+        </div>
+    </header>
+
+    <nav>
+        <p id="menu"><a href="home.html">HOME ホーム</a></p>
+        <p id="menu"><a href="daily.html">DAILY 日常</a></p>
+        <p id="menu"><a href="food.html">FOOD 食べ物</a></p>
+        <p id="menu"><a href="travel.html">TRAVEL 旅行</a></p>
+        <p id="menu"><a href="event.html">EVENT イベント</a></p>
+    </nav>
+
+    <section id="section1">
+        <img src="img/treasure.png" width="800px" height="300px">
+    </section>
+    <aside id="aside1">
+        <h2>
+            7/21 Treasure ファンミ - Wonderland
+        </h2>
+        <p id="content">
+            오사카에 가기로 결정한 후, 평소 좋아하던 트레저라는 아이돌 그룹의 일본 팬미팅 일정이 겹친다는 것을 알게 되어 응모했었다. 하지만 아쉽게도 미당첨이 되고 마음을 놓고있었는데, 운 좋게도 애니패스라고 하는 일본 티켓 앱에서
+            티켓을 얻게되어 고베 팬미팅 마지막 공연을 가게 되었다. 일본 팬미팅은 보통 당일에 랜덤으로 자리를 배정하는데, 우연히도 그라운드석이 당첨되었다. 이번 팬미팅은 그라운드 석에 멤버들이 돌아다닌 다는 것을 알고 있어서
+            더더욱 기대가 되었다. 팬미팅에 가서 일본인 친구들도 만들고 공연도 재밌게 즐기고 멤버들도 가까이서 볼 수 있어서 너무 행복했던 날이다.
+
+        </p>
+    </aside>
+    <div class="clear"></div>
+
+    <aside id="aside2">
+        <h2>
+            7/25 天神祭 텐진마츠리
+        </h2>
+        <p id="content">
+            오사카에서 가장 기대했던 여름 마츠리, 그 중에서도 일본에서 가장 큰 텐진 마츠리를 간 날이다. 아침부터 유카타도 대여하고 야타이도 먹으면서 밤에 있을 불꽃놀이를 기다렸다. 유카타는 처음 입어보는 거였는데,
+            색깔도 머리 모양도 고르는데 너무 힘들었다. 평소에 무채색을 자주 입어서 조금 색깔이 있는 유카타로 결정하였다. 텐진마츠리는 규모만큼 야타이도 정말 많았는데, 오이꼬치랑 카키코오리가 너무 시원해서
+            계속 사먹었다. 축제의 마지막을 장식했던 불꽃놀이도 인생에서 본 가장 크고 예쁜 불꽃놀이였다. 평소 갖고 있던 마츠리에 대한 기대감이 다 충족되었던 날이다.
+        </p>
+    </aside>
+    <section id="section2">
+        <img src="img/matsuri.png" width="800px" height="300px">
+    </section>
+    <div class="clear"></div>
+
+    <section id="section1">
+        <img src="img/nahee.png" width="800px" height="300px">
+    </section>
+    <aside id="aside1">
+        <h2>
+            8/9 ~ 8/12 나희 방문
+        </h2>
+        <p id="content">
+            오봉 방학을 맞이해서 나희가 놀러왔었다. 후쿠오카 지진 때문에 못 오게 될까바 걱정했지만, 다행이도 무사히 도착했다. 첫날은 나희가 늦게 도착해서 바로 취침후, 둘째 날부터 놀러다녔다.
+            둘째날에는 우동을 먹고, 빈티지샵 구경도 하고, 굿즈샵 구경도 하고, 저녁으로 이자카야를 갔다. 셋째날에는 나희의 피곤 이슈로 집에서 불닭볶음면에 타코야끼를 먹은 후 오후 4시 쯤 우메다로 가서 백화점 구경 후 가볍게 한잔을 하고는
+            헵파이브 관람차를 타러 갔다. 이 날 나희랑 갔던 헵파이브 8층 스타벅스에서 정말 잘생긴 알바생을 봤었다. 마지막 날에는 돈키호테 구경을 하고 라멘을 먹고 나희가 떠났다. 너무 즐거운 4일이었다 !
+        </p>
+    </aside>
+    <div class="clear"></div>
+
+    <footer>
+        <div id="footer">
+            <img src="img/logofooter.png">
+            <p>
+                Copyright © 旅と学び tabitomanabi All Rights Reserved<br>
+                @tabitomanabi<br>
+                tabitomanabi.co.jp
+            </p>
+        </div>
+        <div id="address">
+            <p>
+                PHONE +81 80-9444-9412<br>
+                INSTA @cybrfntsy<br>
+                EMAIL cybrfntsy@naver.com
+            </p>
+            <p>
+                〒556-0014<br>
+                大阪市浪速区大国1-12-8,インペリアル大国2<br>
+                Osaka-shi, Naniwa-ku, i, Daikoku 1-12-8, Imperial Daikoku 2
+            </p>
+        </div>
+    </footer>
+    </footer>
+</body>
+</html>

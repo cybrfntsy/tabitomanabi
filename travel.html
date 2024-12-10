@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: aliceblue;
+        }
+        header {
+            font-family: Arial;
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+        }
+
+        #header {
+            height: 80px;
+            width: 350px;
+            float: right;
+            font-size: 16px;
+            color: navy;
+            margin-top: 20px;
+        }
+
+        nav {
+            display: inline-flex;
+            font-family: Arial;
+            font-size: 21px;
+            width: 100%;
+            height: 50px;
+            margin-top: 10px;
+            background-color: navy;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+
+        #menu {
+            font-family: Arial;
+            font-size: 18px;
+            display: inline;
+            margin-left: 120px;
+            width: 150px;
+            height: 20px;
+        }
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover {
+            color: #7a9dc2;
+            text-decoration: none;
+        }
+        a:active {
+            color: #7a9dc2;
+        }
+        #main {
+            margin-top: 100px;
+            width: 1000px;
+            height: 200px;
+            float: left;
+            margin-left: 240px;
+        }
+        #maintitle {
+            width: 1000px;
+            height: 60px;
+            margin-bottom: 10px;
+            font-size: 40px;
+            color: #7a9dc2;
+            font-weight: bold;
+        }
+        #maincontent {
+            width: 1000px;
+            height: 60px;
+            font-size: 18px;
+            color: #333333;
+        }
+        section {
+            width: 640px;
+            height: 360px;
+            float: left;
+            margin-left: 100px;
+        }
+        #vidtitle {
+            width: 640px;
+            height: 40px;
+            margin-top: 190px;
+            color: navy;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        #vidcontent {
+            width: 640px;
+            height: 120px;
+            margin-top: 10px;
+        }
+        aside {
+            width: 640px;
+            height: 360px;
+            margin-left: 20px;
+            float: left;
+        }
+        table {
+            width: 1300px;
+            height: 400px;
+            float: left;
+            margin-left: 83px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        tr, td {
+            width: 300px;
+            height: 200px;
+            border-color: red solid 1px;
+            padding: 10px 15px;
+            
+        }
+        #imgtitle {
+            color: #7a9dc2;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        footer {
+            width: 100%;
+            height: 180px;
+            margin-top: 100px;
+            background-color: #cbe4ff;
+            padding-left: 30px;
+        }
+
+        #footer {
+            width: 500px;
+            height: 150px;
+            margin: 10px 0;
+            float: left;
+            color: navy;
+        }
+
+        #address {
+            width: 470px;
+            height: 150px;
+            margin-top: 10px 0;
+            padding-top: 10px;
+            float: right;
+            color: navy;
+            font-size: 14px;
+        }
+
+        @media (max-width:760px) {
+            header {
+                width: 720px;
+            }
+            nav {
+                height: 100px;
+            }
+        }
+        @media (max-width:400px) {
+            header {
+                width: 630px;
+            }
+            nav {
+                height: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logoheader.png" height="100px"></a>
+        <div id="header">
+            7月から8月までの大阪短期留学日記<br>
+            ２ヶ月間の新しい経験の話を読んでください！<br>
+            始めましょう！
+        </div>
+    </header>
+
+    <nav>
+        <p id="menu"><a href="home.html">HOME ホーム</a></p>
+        <p id="menu"><a href="daily.html">DAILY 日常</a></p>
+        <p id="menu"><a href="food.html">FOOD 食べ物</a></p>
+        <p id="menu"><a href="travel.html">TRAVEL 旅行</a></p>
+        <p id="menu"><a href="event.html">EVENT イベント</a></p>
+    </nav>
+        
+    <div id="main">
+        <div id="maintitle">8/14 ~ 8/15 二日の京都旅</div>
+        <div id="maincontent">오봉 방학을 이용하여 혼자서 교토 여행을 다녀왔다. 한 여름의 교토는 엄청 덥고 습한 걸로 악명이 높아서 고민했지만,<br>
+                              오사카까지 와서 교토를 안 가고 떠나기는 너무 아까워서 교토행 여행을 결정하였다.
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <section>
+        <video width="640px" height="360px" autoplay controls loop>
+            <source src="kyotovid.mov">
+        </video>
+    </section>
+    <aside>
+        <div id="vidtitle">古い町の中で歩こう。</div>
+        <div id="vidcontent">
+            교토 여행은 일본의 전통적인 아름다움과 문화가 잘 보존된 도시를 탐험하는 특별한 경험이 될 수 있다. 
+            교토는 역사적인 사원, 아름다운 정원, 전통적인 일본의 거리 풍경 등으로 유명하며, 다양한 음식들이나 체험들도 경험할 수 있어 추천하는 여행지이다. 
+            한 여름의 교토는 40도에 육박하는 고온과 습한 날씨를 지니고 있지만, 일본 여름 감성의 최절정체이다. 만약 오사카로 여행을 갈 계획이 있는 사람이라면,
+            하루라도 교토를 꼭 방문해 볼 것을 추천한다.
+
+        </div>
+    </aside>
+    <div class="clear"></div>
+
+    <table>
+        <tr>
+            <td><img src="img/kyoto1.png" width="297px" height="180px"></td>
+            <td><img src="img/kyoto2.png" width="297px" height="180px"></td>
+            <td><img src="img/kyoto3.png" width="297px" height="180px"></td>
+            <td><img src="img/kyoto4.png" width="297px" height="180px"></td>
+        </tr>
+        <tr>
+            <td>
+                <span id="imgtitle">day 1 : 茶房 前田</span>
+                <p>
+                    사보 마에다라고 하는 킷사텐, 에어컨도 없고 선풍기 뿐이었지만 일본 특유의 여름 느낌이 <br>물씬 났다. 날씨가 더워서 그런지 메론 소다가 너무 맛있었다.
+                </p>
+            </td>
+            <td>
+                <span id="imgtitle">day 1 : ちいかわ もぐもぐ本店</span>
+                <p>
+                    평소에 너무 좋아하는 '치이카와'라는 만화의<br>교토 테마 굿즈샵이다. 치이카와 교토 한정<br>굿즈도 구경하고 사진 찍다보니 시간이 금방<br> 지나갔다.
+                </p>
+            </td>
+            <td>
+                <span id="imgtitle">day 1 : 西条 夏祭り</span>
+                <p>
+                    우연히 교토를 방문했던 날에 니시조에서 여름 축제를 했었다. 혼자서 하이볼 마시면서 걸어<br>다니고 풍경에 소원도 쓰고 여름 밤의 교토를 즐길 수 있었다.
+                </p>
+            </td>
+            <td>
+                <span id="imgtitle">day 2 : リラックマ カフェ</span>
+                <p>
+                    교토에서 유명한 리락쿠마 카페를 마지막으로 여행을 마쳤다. 파르페나 카레 가격이 너무<br>비싸서 망설였지만, 너무 귀여워서 참지 못하고 먹을 수 밖에 없었다.
+                </p>
+            </td>
+        </tr>
+    </table>
+    <div class="clear"></div>
+
+    <footer>
+        <div id="footer">
+            <img src="img/logofooter.png">
+            <p>
+                Copyright © 旅と学び tabitomanabi All Rights Reserved<br>
+                @tabitomanabi<br>
+                tabitomanabi.co.jp
+            </p>
+        </div>
+        <div id="address">
+            <p>
+                PHONE +81 80-9444-9412<br>
+                INSTA @cybrfntsy<br>
+                EMAIL cybrfntsy@naver.com
+            </p>
+            <p>
+                〒556-0014<br>
+                大阪市浪速区大国1-12-8,インペリアル大国2<br>
+                Osaka-shi, Naniwa-ku, i, Daikoku 1-12-8, Imperial Daikoku 2
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
